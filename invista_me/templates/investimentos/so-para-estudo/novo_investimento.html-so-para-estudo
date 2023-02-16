@@ -1,0 +1,7 @@
+<!--Essa chave com porcentagem é a sintaxe especifica do django para receber os dados do front para o back-->
+<!--<form action="{% url 'investimento_registrado' %}" method="POST">
+    {% csrf_token %} - Token de autenticação para deixar o envio das informações seguro
+    <label for="">Tipo de Investimento</label>
+    <input type="text" name="TipoInvestimento"> - "name" será usada no arquivo views na função "investimento_registrado"
+    <button type="submit">Salvar</button>
+</form>-->

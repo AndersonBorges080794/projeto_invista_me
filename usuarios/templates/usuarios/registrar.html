@@ -1,0 +1,14 @@
+{% extends 'investimentos/base.html' %}<!--importando a página base.html-->
+{% load crispy_forms_tags %}
+{% block conteudo %}<!--Puxando a funcionalidade do block conteudo-->
+
+<div class="container">
+    <h1>Cadastrar Novo Usuário</h1>
+    <form method="POST">
+        {% csrf_token %}
+        {{ formulario | crispy }}
+        <button class="btn btn-primary" type="submit">Criar novo usuário</button>
+        <a href="{% url 'login' %}">Já possui uma conta? Entre aqui</a>
+    </form>
+</div>
+{% endblock %}<!--Finalizando funcionalidade do block conteudo-->
