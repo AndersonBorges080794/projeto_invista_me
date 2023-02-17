@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-rq)##6a122tqc^a$f=!m=b978pg$ey_nzv(1-*=$6=(e98$y(4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['projetoinvistame-production.up.railway.app']
 
 
 # Application definition
